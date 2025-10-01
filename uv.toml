@@ -1,0 +1,17 @@
+# UV workspace configuration
+[tool.uv]
+# Python version preference
+python-preference = "managed"
+python-downloads = "automatic"
+
+# Virtual environment settings
+venv = ".venv"
+
+# Package resolution
+resolution = "highest"
+
+# Index settings
+index-strategy = "first-index"
+
+# Development settings
+compile = true

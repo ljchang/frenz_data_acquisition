@@ -1,0 +1,19 @@
+# Marimo app configuration
+[app]
+# App settings
+width = "full"
+layout = "vertical"
+
+[runtime]
+# Runtime settings
+on_cell_change = "lazy"
+auto_instantiate = true
+
+# Environment variables to load
+dotenv = [".env"]
+
+[display]
+# Display settings
+theme = "light"
+font_size = "medium"
+code_editor_font_size = 14

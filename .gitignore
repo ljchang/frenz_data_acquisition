@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+.marimo/
+
+# FRENZ Data Collection specific
+data/
+logs/
+*.h5
+*.hdf5
+session_*/
+*.env.local
+*.env.*.local
+
+# Streamer data folders (timestamp-based directories)
+[0-9]*.[0-9]*/
+
+# Marimo dashboard logs
+dashboard.log
+
+# Temporary folders
+temp/
+
+# macOS
+.DS_Store
+
+# UV lock file (optional - uncomment if you want to ignore it)
+# uv.lock
